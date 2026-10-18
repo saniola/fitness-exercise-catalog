@@ -1,11 +1,11 @@
 {
-  "name": "goit-advancedjs-final-project",
+  "name": "fitness-exercise-catalog",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-advancedjs-final-project/",
+    "build": "vite build --base=/fitness-exercise-catalog/",
     "preview": "vite preview",
     "serve": "vite preview",
     "type-check": "tsc --noEmit",

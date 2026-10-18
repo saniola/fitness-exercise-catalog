@@ -5,7 +5,7 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig(({ command }) => {
   return {
-    base: '/goit-advancedjs-final-project/',
+    base: '/fitness-exercise-catalog/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
