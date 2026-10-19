@@ -1,6 +1,6 @@
 export function setIconPaths(container) {
   const isDeployed = window.location.hostname !== 'localhost';
-  const basePath = isDeployed ? '/goit-advancedjs-final-project' : '';
+  const basePath = isDeployed ? '/fitness-exercise-catalog' : '';
   container.querySelectorAll('use[href*="images/icons.svg"]').forEach(icon => {
     const currentHref = icon.getAttribute('href');
     const [url, id] = currentHref.split('#');
